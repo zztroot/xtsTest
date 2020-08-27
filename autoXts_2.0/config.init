@@ -1,0 +1,25 @@
+[config]
+
+test_item = GTS
+
+executed_file = ../tools/gts-tradefed
+
+executed_command = run gts -m GtsSimAppDialogTestCases -t com.google.android.simappdialog.gts.InstallCarrierAppActivityTest#testNotificationOnlyDuringSetupWizard -s BH950020JN
+
+executed_command_1 = gts
+
+full_run_number = 1
+
+device_number = 3
+
+device1 = 
+
+device2 = 
+
+device3_uicc = BH950020JN
+
+device4_se = BH950020JN
+
+device5_sim = BH950020JN
+
+device_set_all = BH950020JN
